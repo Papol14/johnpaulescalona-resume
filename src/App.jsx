@@ -12,7 +12,7 @@ function App() {
           <li>johnpaulescalona2@gmail.com</li>
           <li>Pagkakaisa, Naujan, Oriental Mindoro</li>
         </ul>
-        <section>
+        <section className="skills">
           <h2>Skills</h2>
           <ul>
             <li>Microsoft Word, Canva, PowerPoint, Excel, Airtable</li>
