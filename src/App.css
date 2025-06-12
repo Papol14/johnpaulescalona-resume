@@ -242,6 +242,16 @@ body {
   word-break: break-word;
 }
 
+.work-experience {
+  font-size: clamp(0.7rem, 0.95vw, 0.95rem);
+}
+.work-experience h2 {
+  font-size: clamp(0.75rem, 1vw, 1.05rem);
+}
+.work-experience strong {
+  font-size: clamp(0.8rem, 1vw, 1rem);
+}
+
 /* All media queries removed to keep layout same on all devices */
 
 @media (max-width: 768px) {

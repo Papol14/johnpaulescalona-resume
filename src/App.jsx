@@ -72,7 +72,7 @@ function App() {
             </li>
           </ul>
         </section>
-        <section>
+        <section className="work-experience">
           <h2>Work Experience</h2>
           <div>
             <strong>INTERN</strong><br />
