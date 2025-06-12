@@ -12,7 +12,7 @@ function App() {
           <li>johnpaulescalona2@gmail.com</li>
           <li>Pagkakaisa, Naujan, Oriental Mindoro</li>
         </ul>
-        <section className="skills">
+        <section>
           <h2>Skills</h2>
           <ul>
             <li>Microsoft Word, Canva, PowerPoint, Excel, Airtable</li>
@@ -23,13 +23,13 @@ function App() {
         <section>
           <h2>Projects</h2>
           <div className="projects">
-            <a href="https://byte-bazaar-blond.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://byte-bazaar-blond.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Byte Bazaar">
               <img src="/byte.png" alt="Byte Bazaar" className="project-img" />
             </a>
-            <a href="https://expense-tracker-react-gold.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://expense-tracker-react-gold.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Expense Tracker">
               <img src="/expense.png" alt="Expense Tracker" className="project-img" />
             </a>
-            <a href="https://jp-chatbot.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://jp-chatbot.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Chatbot">
               <img src="/chatbot.png" alt="Chatbot" className="project-img" />
             </a>
           </div>
@@ -37,11 +37,11 @@ function App() {
         <section>
           <h2>Socials</h2>
           <div className="socials">
-            <a href="https://www.facebook.com/john.paul.escalona.2025/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-              <Facebook size={28} />
+            <a href="https://www.facebook.com/profile.php?id=61576928804795" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <Facebook size={24} />
             </a>
             <a href="https://github.com/Papol14" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-              <Github size={28} />
+              <Github size={24} />
             </a>
           </div>
         </section>
@@ -50,7 +50,7 @@ function App() {
         <section>
           <h2>Profile</h2>
           <p>
-            To leverage my proficiency in Microsoft Word, Canva, PowerPoint, and Excel to create high-quality documents, engaging presentations, and efficient data management solutions. I aim to contribute effectively to organizational goals by applying my technical skills, attention to detail, and creativity in a collaborative and dynamic work environment.
+          Recent graduate with strong numerical skills and proficiency. Highly detail-oriented, with a passion for delivering excellent customer service and ensuring accurate financial transactions. Quick learner with a solid foundation in data organization and digital tools, eager to apply my technical skills in a fast-paced banking environment. Committed to maintaining efficiency, security, and a positive client experience as a Bank Teller.
           </p>
         </section>
         <section>
@@ -68,24 +68,42 @@ function App() {
               <strong>Junior High School:</strong> Good Shepherd Academy, 2015-2019
             </li>
             <li>
-              <strong>Primary Education:</strong> Don Vicente Delgado Memorial, 2009-2015
+              <strong>Primary Education:</strong> Don Vicente Delgado Memorial Elementary School, 2009-2015
             </li>
           </ul>
+        </section>
+        <section>
+          <h2>Work Experience</h2>
+          <div>
+            <strong>INTERN</strong><br />
+            Mindoro Medical Center Calapan Inc.,<br />
+            Masipit, Calapan City, Oriental Mindoro<br />
+            Duration: Feb - May (600 hours)
+            <ul>
+              <li>
+                Assisted with financial encoding, patient account summaries, shareholder records, and front desk customer support during a 600-hour internship.
+              </li>
+            </ul>
+          </div>
         </section>
         <section>
           <h2>Certificates/Seminars/Training</h2>
           <ul>
             <li>
-              <strong>Business Summit 2023</strong> - Divine Word College Of Calapan, May 03, 2023
+              <strong>MASTERING BUSINESS COMMUNICATION</strong><br />
+              Department of Information and Communications Technology, Jan 24, 2025
             </li>
             <li>
-              <strong>The Rise of Artificial Intelligence</strong> - Divine Word College Of Calapan, Nov 24, 2023
+              <strong>XERO ADVISOR CERTIFIED</strong><br />
+              Xero central, Jan 2, 2025
             </li>
             <li>
-              <strong>International Business & Global Strategy</strong> - University of Santo Thomas, Nov 18, 2023
+              <strong>INTERNATIONAL BUSINESS & GLOBAL STRATEGY: TRENDS, DEVELOPMENTS AND CHALLENGES</strong><br />
+              University of Santo Thomas, Nov 18, 2023
             </li>
             <li>
-              <strong>Software Programming 101</strong> - Mst Connect, Nov 16, 2024
+              <strong>SOFTWARE PROGRAMMING 101</strong><br />
+              MST Connect, Nov 16, 2024
             </li>
           </ul>
         </section>
